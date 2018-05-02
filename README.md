@@ -1,3 +1,5 @@
+![Project Logo](https://raw.githubusercontent.com/VitexSoftware/monitoring-to-redmine-notify/master/project_logo.png)
+
 # monitoring-to-redmine-notify
 
 Allow Icinga/Nagios notify server problem as new issue in redmine
