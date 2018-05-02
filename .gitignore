@@ -1,0 +1,7 @@
+/nbproject/private/
+/vendor/
+/debian/monitoring-to-redmine-notify.debhelper.log
+/debian/monitoring-to-redmine-notify.substvars
+/debian/debhelper-build-stamp
+/composer.lock
+/debian/monitoring-to-redmine-notify/

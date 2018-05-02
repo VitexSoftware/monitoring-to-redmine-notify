@@ -1,0 +1,4 @@
+src/*   usr/share/monitoring-to-redmine-notify
+bin/*   usr/bin
+debian/composer.json usr/share/monitoring-to-redmine-notify
+notifications.cfg usr/share/doc/monitoring-to-redmine-notify

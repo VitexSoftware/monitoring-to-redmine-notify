@@ -1,0 +1,3 @@
+#!/bin/sh
+php -f /usr/share/monitoring-to-redmine-notify/service-notify-redmine.php
+

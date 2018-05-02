@@ -1,0 +1,18 @@
+{
+    "name": "vitexsoftware/monitoring-to-redmine-notify",
+    "description": "Allow Icinga/Nagios notify server/service problem as new issue in redmine.",
+    "authors": [
+        {
+            "name": "Vítězlslav Dvořák",
+            "email": "info@vitexsoftware.cz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Icinga\\Notifier\\": "src/Notifier/"
+        }
+    },
+    "require": {
+        "kbsali/redmine-api": "~1.0"
+    }
+}

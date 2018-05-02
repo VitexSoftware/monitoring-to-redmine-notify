@@ -1,0 +1,18 @@
+Source: monitoring-to-redmine-notify
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Uploaders: Vitex <vitex@hippy.cz>
+Priority: optional
+Homepage: https://github.com/VitexSoftware/monitoring-to-redmine-notify
+
+Package: monitoring-to-redmine-notify
+Depends: ${misc:Depends},composer
+Recommends: icinga-editor
+Architecture: all
+Section: web
+Priority: optional
+Description: Allow notify server problem as new issue in redmine
+ Additional notify command for icinga/nagios 1.x to create issue in redmine
+ when something happend
+

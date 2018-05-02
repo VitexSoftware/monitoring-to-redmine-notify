@@ -1,0 +1,3 @@
+#!/bin/sh
+php -f /usr/share/monitoring-to-redmine-notify/host-notify-redmine.php
+

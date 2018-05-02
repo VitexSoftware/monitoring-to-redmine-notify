@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_install:
+	dh_install
+	sed -i '/require_once/c\require_once \"\/var\/lib\/monitoring-to-redmine-notify\/autoload.php";' debian/monitoring-to-redmine-notify/usr/share/monitoring-to-redmine-notify/host-notify-redmine.php
+	sed -i '/require_once/c\require_once \"\/var\/lib\/monitoring-to-redmine-notify\/autoload.php";' debian/monitoring-to-redmine-notify/usr/share/monitoring-to-redmine-notify/service-notify-redmine.php

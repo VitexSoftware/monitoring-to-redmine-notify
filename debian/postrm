@@ -1,0 +1,12 @@
+#!/bin/sh
+# postrm script for monitoring-to-redmine-notify
+
+set -e
+
+if [ "$1" = "purge" ]; then
+    rm -fr /var/lib/monitoring-to-redmine-notify 
+fi
+
+#DEBHELPER#
+
+exit 0
